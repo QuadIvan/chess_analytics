@@ -5,6 +5,9 @@ This project explores the career trajectories and demographic patterns of the wo
 
 The project demonstrates Python skills for data cleaning, trend smoothing, and interactive visualization, moving beyond basic descriptive statistics into performance analytics.
 
+## Data Source
+The data was gathered from the International Chess Federation FIDE from this [link](https://ratings.fide.com/download_lists.phtml)
+
 ## Research Questions
 1. The Peak Performance Curve: At what age do elite players typically reach their maximum ELO rating? Does the peak happen earlier in the modern engine era?
 2. Format Synergy: How strong is the correlation between Classical, Rapid, and Blitz ratings? Are top players universal or format-specific?
