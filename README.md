@@ -1,47 +1,39 @@
-# Chess Peak Analytics: Performance and Demographics of the Elite
+# Chess Landscape 2025: Performance & Demographics of the Modern Elite
 
 ## Project Overview
-This project explores the career trajectories and demographic patterns of the world's top chess players. By analyzing historical FIDE data, the study aims to identify the prime age for grandmasters and determine if there is a consistent decline in performance over time. Additionally, it examines the global distribution of players by gender and compares consistency across Classical, Rapid, and Blitz formats.
+This project provides a data-driven snapshot of the global chess elite as of late 2025. Using official data from the **International Chess Federation (FIDE)**, the study analyzes the current distribution of Grandmasters, exploring the relationship between different game formats (Standard, Rapid, and Blitz) and examining how performance scales across different age groups and federations.
 
-The project demonstrates Python skills for data cleaning, trend smoothing, and interactive visualization, moving beyond basic descriptive statistics into performance analytics.
+The project demonstrates advanced Python skills for **structural data auditing**, **memory optimization**, and **multi-format correlation analysis**, providing insights into the modern professional chess ecosystem.
 
 ## Data Source
-The data for this project was sourced from the official International Chess Federation (FIDE) database. 
-
-* Source Link: [FIDE Ratings Archive](https://ratings.fide.com/download_lists.phtml)
-* Data Snapshot: December 2025
-* Dataset Scope: Global active and inactive rated players.
-
-The dataset provides a comprehensive look at the professional chess landscape, including ratings for different time controls (Standard, Rapid, and Blitz) and key demographic metadata such as birth year, federation, and official titles.
+The data was sourced from the official FIDE database.
+* **Source Link:** [FIDE Ratings Archive](https://ratings.fide.com/download_lists.phtml)
+* **Data Snapshot:** December 2025
+* **Dataset Scope:** Grandmasters (GMs) and Women Grand Masters (WGMs), including Standard, Rapid, and Blitz ratings.
 
 ## Research Questions
-1. The Peak Performance Curve: At what age do elite players typically reach their maximum ELO rating? Does the peak happen earlier in the modern engine era?
-2. Format Synergy: How strong is the correlation between Classical, Rapid, and Blitz ratings? Are top players universal or format-specific?
-3. Global Gender Landscape: Which countries are leading in gender representation within the elite ranks, and where are the largest gaps?
-4. The Decline: Using time-series smoothing, can we identify the average age where a player's performance begins a significant downward trend?
+1. **Generational Performance:** How is the ELO rating distributed across different age groups in 2025? Are younger generations showing higher average ratings than their veteran counterparts?
+2. **Format Synergy:** How strong is the correlation between Standard, Rapid, and Blitz ratings? Do elite players maintain a "universal" level, or are there rhythm-specific specialists?
+3. **Geopolitics of Chess:** Which federations currently dominate the Grandmaster landscape in terms of both quantity and average performance?
+4. **Gender Representation:** What is the current state of gender diversity within the Grandmaster title, and how does it vary by region?
 
 ## Tech Stack and Skills
-* Language: Python 
-* Data Wrangling: Pandas, NumPy.
-* Analysis Techniques: 
-    * Rolling Windows: To smooth rating fluctuations and identify long-term peaks.
-    * Correlation Matrices: To analyze the relationship between different chess modalities.
-    * Grouping and Aggregation: To compare performance across different generations (cohort analysis).
-* Visualization: Matplotlib and Seaborn.
-* Forecasting: Basic Linear/Polynomial Regression to model the aging curve.
+* **Language:** Python
+* **Data Wrangling:** Pandas, NumPy (Data cleaning, type optimization, and feature engineering).
+* **Analysis Techniques:**
+    * **Structural Auditing:** Ensuring data integrity through density and schema verification.
+    * **Correlation Analysis:** Utilizing heatmaps to measure synergy between time controls.
+    * **Categorical Optimization:** Reducing memory footprint and improving processing speed through appropriate data types.
+* **Visualization:** Matplotlib and Seaborn for demographic and performance distribution.
 
 ## Dataset Description
-The analysis is conducted using FIDE (International Chess Federation) historical data.
-* Target Population: Top 1000 players (active and retired).
-* Key Features: Player Name, Country, Gender, Birth Year, Classical ELO, Rapid ELO, Blitz ELO, and Peak Rating Year.
+The analysis focuses on the **Grandmaster (GM)** subset of the FIDE list:
+* **Target Population:** Active Grandmasters.
+* **Key Features:** Player Name, country, Gender (sex), Birth Year (birthday), Age, and Ratings for Standard, Rapid, and Blitz formats.
 
 ## Project Structure
-* data/: Raw and cleaned datasets.
-* notebooks/: Jupyter Notebook with the step-by-step analysis (Cleaning, EDA, Visualization).
-* src/: Custom Python scripts for data processing.
-* visualizations/: Exported charts and insights.
+* `data/`: Raw and cleaned datasets.
+* `notebooks/`: Jupyter Notebook containing the structural audit, data cleaning, and Exploratory Data Analysis (EDA).
+* `scripts/`: Custom Python logic for data cleaning and type casting.
 
 ---
-**Author:** [Your Name]  
-**Level:** Junior Data Analyst  
-**Contact:** [Your LinkedIn/Email]
