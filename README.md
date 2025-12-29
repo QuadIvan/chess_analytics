@@ -15,7 +15,7 @@ The data was sourced from the official FIDE database.
 1. **Generational Performance:** How is the ELO rating distributed across different age groups in 2025? Are younger generations showing higher average ratings than their veteran counterparts?
 2. **Format Synergy:** How strong is the correlation between Standard, Rapid, and Blitz ratings? Do elite players maintain a "universal" level, or are there rhythm-specific specialists?
 3. **Geopolitics of Chess:** Which federations currently dominate the Grandmaster landscape in terms of both quantity and average performance?
-4. **Gender Representation:** What is the current state of gender diversity within the Grandmaster title, and how does it vary by region?
+4. **Gender Representation:** What is the current state of gender diversity within the Grandmaster title, and how does it vary by country?
 
 ## Tech Stack and Skills
 * **Language:** Python
