@@ -12,28 +12,30 @@ The data was sourced from the official FIDE database.
 * **Dataset Scope:** Grandmasters (GMs) and Women Grand Masters (WGMs), including Standard, Rapid, and Blitz ratings.
 
 ## Research Questions
-1. **Generational Performance:** How is the ELO rating distributed across different age groups in 2025? Are younger generations showing higher average ratings than their veteran counterparts?
-2. **Format Synergy:** How strong is the correlation between Standard, Rapid, and Blitz ratings? Do elite players maintain a "universal" level, or are there rhythm-specific specialists?
-3. **Geopolitics of Chess:** Which federations currently dominate the Grandmaster landscape in terms of both quantity and average performance?
-4. **Gender Representation:** What is the current state of gender diversity within the Grandmaster title, and how does it vary by country?
+1. **Gender Dynamics & Representation:** What is the current state of gender diversity within the elite Grandmaster landscape, and how do participation density and regional models influence performance outcomes?
+2. **Geopolitics of Excellence:** Which national federations dominate the professional circuit, and how do "Volume-based" models compare to "Efficiency-based" institutional models?
+3. **Format Synergy & Universal Mastery:** How strong is the correlation between time controls? Does the elite ecosystem favor rhythm-specific specialists, or is there a "Systemic Gravity" toward universal proficiency?
+4. **Performance Lifecycle & Generational Decay:** How does age influence competitive strength? Is there a measurable "inflection point" where strategic experience begins to compensate for the decline in computational speed?
 
 ## Tech Stack and Skills
 * **Language:** Python
-* **Data Wrangling:** Pandas, NumPy (Data cleaning, type optimization, and feature engineering).
-* **Analysis Techniques:**
-    * **Structural Auditing:** Ensuring data integrity through density and schema verification.
-    * **Correlation Analysis:** Utilizing heatmaps to measure synergy between time controls.
-    * **Categorical Optimization:** Reducing memory footprint and improving processing speed through appropriate data types.
-* **Visualization:** Matplotlib and Seaborn for demographic and performance distribution.
+* **Data Wrangling:** Pandas, NumPy (Advanced data cleaning, IQR-based outlier detection, and feature engineering).
+* **Statistical Analysis:**
+    * **Correlation Modeling:** Utilizing Pearson coefficients and heatmaps to quantify skill transferability across formats.
+    * **Demographic Segmentation:** Generational cohort analysis and participation density studies.
+    * **Performance Metrics:** Comparative analysis using Robust Statistics (Medians vs. Means) to mitigate sample size bias.
+* **Visualization:** Matplotlib and Seaborn for multi-dimensional performance distribution and geopolitical mapping.
 
 ## Dataset Description
-The analysis focuses on the **Grandmaster (GM)** subset of the FIDE list:
-* **Target Population:** Active Grandmasters.
-* **Key Features:** Player Name, country, Gender (sex), Birth Year (birthday), Age, and Ratings for Standard, Rapid, and Blitz formats.
+The analysis focuses on the high-performance subset of the December 2025 FIDE list:
+* **Target Population:** Active Grandmasters (GM) and Woman Grandmasters (WGM).
+* **Key Features:** National Federation (country), Gender (sex), Birth Year, Calculated Age, and synchronized Ratings for Standard, Rapid, and Blitz formats.
+* **Data Integrity:** Filtered through Interquartile Range (IQR) methods to ensure a modern professional baseline.
 
 ## Project Structure
-* `data/`: Raw and cleaned datasets.
-* `notebooks/`: Jupyter Notebook containing the structural audit, data cleaning, and Exploratory Data Analysis (EDA).
-* `scripts/`: Custom Python logic for data cleaning and type casting.
+* `data/`: Contains both the raw FIDE datasets and the processed/cleaned versions.
+* `notebooks/`: Comprehensive Jupyter Notebooks detailing the structural audit, IQR-based data cleaning, and Exploratory Data Analysis (EDA).
+* `figures/`: Exported visualizations, including performance heatmaps, demographic distributions, and geopolitical dashboards.
+* `README.md`: Project documentation and executive summary of insights.
 
 ---
