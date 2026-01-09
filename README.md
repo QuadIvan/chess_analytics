@@ -46,7 +46,7 @@ The analysis focuses on the high-performance subset of the December 2025 FIDE li
 
 ## Project Structure
 * `data/`: Contains both the raw FIDE datasets and the processed/cleaned versions.
-* `notebooks/`: Comprehensive Jupyter Notebooks detailing the structural audit, IQR-based data cleaning, and Exploratory Data Analysis (EDA).
+* [notebook/](notebook): Comprehensive Jupyter Notebooks detailing the structural audit, IQR-based data cleaning, and Exploratory Data Analysis (EDA).
 * `figures/`: Exported visualizations, including performance heatmaps, demographic distributions, and geopolitical dashboards.
 * `README.md`: Project documentation and executive summary of insights.
 
