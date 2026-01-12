@@ -15,7 +15,7 @@ The data was sourced from the official FIDE database.
 1. **Gender Dynamics & Representation:** What is the current state of gender diversity within the elite Grandmaster landscape, and how do participation density and regional models influence performance outcomes?
 2. **Geopolitics of Excellence:** Which national federations dominate the professional circuit, and how do "Volume-based" models compare to "Efficiency-based" institutional models?
 3. **Format Synergy & Universal Mastery:** How strong is the correlation between time controls? Does the elite ecosystem favor rhythm-specific specialists, or is there a "Systemic Gravity" toward universal proficiency?
-4. **Performance Lifecycle & Generational Decay:** How does age influence competitive strength? Is there a measurable "inflection point" where strategic experience begins to compensate for the decline in computational speed?
+4. **Performance Lifecycle & Generational Decay:** How does age influence competitive strength? Is there a measurable "inflection point" where performance declines?
 
 ## Executive Summary: The State of the FIDE Elite (December 2025)
 
