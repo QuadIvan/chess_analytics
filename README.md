@@ -19,7 +19,7 @@ The data was sourced from the official FIDE database.
 
 ## Executive Summary: The State of the FIDE Elite (December 2025)
 
-* **Demographic Reality:** The elite ecosystem remains a mature and male-dominated environment. With a median age of 40 and 86.1% male participation, the "participation gap" continues to be the primary structural feature of the circuit. While the male cohort holds the highest absolute ratings, the "Female GM" category shows the highest technical efficiency relative to their small population size.
+* **Dynamics of Participation and Absolute Performance:** The gender imbalance in elite chess (86.1% male) creates a scenario where peak ratings are predominantly occupied by the male cohort. Statistically, a significantly larger player pool increases the probability of producing extreme outliers at the top of the ELO scale. The persistence of this gap at the highest levels suggests a complex intersection of population size and professional development paths.
 
 * **The Myth of the Specialist:** Elite chess is fundamentally "universal." High correlations between all time formats prove that mastery in one area almost always translates to the others. High-level consistency is a hallmark of professional maturity, while relative specialization is more common in the early stages of a career.
 
